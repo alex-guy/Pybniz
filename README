@@ -1,0 +1,57 @@
+Pybniz
+======
+
+[Description en français ci-dessous]
+
+Pybniz is a GUI frontend to launch many IBNIZ with differents sizes and 
+positions, and include a tiny set editor and manager.
+
+Pybniz allows to create IBNIZ sets and to launch multiples IBNIZ at differents
+positions and sizes.
+
+Pybniz comes with its own version of IBNIZ which had been modified for allow
+new parameters (see ./ibniz -h) compiled for Linux only. In case of ibniz 
+don't work, you can download the source on Github (see below) and recompile it.
+
+The sets are writed in the folder 'sets/' in text format, the name of the file
+is used for name the set. The first line '\ xyt:' is used for memorize the
+position and the size of the window.
+
+Prerequisites:
+SDL1.2 library and Tkinter Python module:
+- on Debian : sudo apt-get install libsdl1.2* python-tk
+
+Last version of Pybniz    : https://github.com/alex-guy/Pybniz
+Modified version of IBNIZ : https://github.com/alex-guy/IBNIZ
+
+Author: Alexandre GUY <alex@euronode.com>
+License: GPLv3
+
+-- FR
+
+Pybniz est une interface pour lancer plusieurs IBNIZ avec des tailles et des 
+positions différentes, il inclut un éditeur et un gestionnaire minimaliste 
+de sets.
+
+Pybniz permet de créer des sets IBNIZ et de lancer IBNIZ en lui indiquant
+la position de la fenetre et sa taille.
+
+Pybniz embarque sa propre version de IBNIZ qui a été modifiée pour accepter 
+de nouveaux paramètres (voir ./ibniz -h), et ne fonctionne de ce fait que 
+sous Linux. Si IBNIZ ne fonctionne pas, tu peux télécharger les sources sur 
+Github (voir ci-dessous) et les recompiler.
+
+Les sets sont enregistrés dans le sous-répertoire 'sets/' en format texte, 
+le nom du fichier est utilisé pour nommer le set. La première ligne '\ xyt:' 
+est utilisée pour mémoriser la position et la taille de la fenêtre.
+
+Pré-requis:
+la librairie SDL1.2 et le module Python Tkinter:
+- sur Debian : sudo apt-get install libsdl1.2* python-tk
+
+Dernière version de Pybniz : https://github.com/alex-guy/Pybniz
+Version modifiée de IBNIZ  : https://github.com/alex-guy/IBNIZ
+
+Auteur: Alexandre GUY <alex@euronode.com>
+Licence: GPLv3
+
